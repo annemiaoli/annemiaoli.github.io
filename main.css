@@ -92,7 +92,7 @@ h1{
   position:fixed;
   font-family: "Josefin Slab", serif;
   font-size: 50px;
-  color: #FF4000;
+  color: #ff5454;
   font-weight:600;
 }
 
@@ -123,14 +123,14 @@ h3{
     color:#000000;
   }
   a:hover{
-    color:#FF4000;
+    color:#ff5454;
   }
   a:active{
-    color:#FF4000;
+    color:#ff5454;
   }
 
   a.customlink{
-    color:#FF4000;
+    color:#ff5454;
   }
 
 .active{
@@ -138,7 +138,8 @@ h3{
 }
 
 em{
-  color:#FF4000;
+  color:#ff5454;
+  font-weight: 100;
 }
 
 /*=====/
@@ -292,5 +293,7 @@ text
 Colors:
 
 Original orange: #EC5A24;
+anne's red: #ff4000;
 Original blue: #00AEEF;
+Summer's blue: #00adef;
 ======*/
