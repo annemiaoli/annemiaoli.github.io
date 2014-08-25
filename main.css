@@ -69,8 +69,9 @@ table {
 .body{
   font-family:"Josefin", sans-serif;
   font-weight:300;
-  font-size:16px;
+  font-size:15.5px;
   line-height: 20px;
+  width: 500px;
 }
 
 #intro1{
@@ -142,6 +143,7 @@ h3{
 em{
   color:#ff5454;
   font-weight: 100;
+  font-size: 15.5px;
 }
 
 /*=====/
