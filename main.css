@@ -167,9 +167,21 @@ Social Media
   top:80px;
 }
 
+#soundcloud{
+  position: fixed;
+  left: 300px;
+  top:79px;
+}
+
+#GitHub{
+  position: fixed;
+  left:355px;
+  top:79px;
+}
+
 #aboutme{
   position:fixed;
-  left:300px;
+  left:400px;
   top:87px;
 }
 
