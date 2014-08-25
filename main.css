@@ -58,12 +58,11 @@ table {
 */
 
 #container {
-  margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  width: 960px;
-  height: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 0;
+  width: 1050px;
+  height: 500px;
 }
 
 .body{
