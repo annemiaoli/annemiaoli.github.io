@@ -115,7 +115,6 @@ h3{
   width: 383px;
   top:275px;
   left: 717px;
-
 }
 
   a:link{
@@ -143,6 +142,15 @@ em{
   color:#ff5454;
   font-weight: 100;
   font-size: 15.5px;
+}
+
+footer{
+  position:fixed;
+  bottom:49px;
+  left:163px;
+  font-family:"Josefin", sans-serif;
+  font-size:14px;
+  font-weight: 100;
 }
 
 /*=====/
