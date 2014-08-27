@@ -5,28 +5,36 @@ $(document).ready(function() {
 });
 
 //fades
-$("#headlinelink").live("click",function(){
-	$("#abouttext").fadeOut("slow");
-	$("#wordtext").fadeOut("slow");
-	$("#soundtext").fadeOut("slow");
+$(document).ready(function() {
+	$("#headlinelink").live("click",function(){
+		$("#abouttext").fadeOut("slow");
+		$("#wordtext").fadeOut("slow");
+		$("#soundtext").fadeOut("slow");
+	});
 });
 
-$("#aboutlink").live("click",function(){
-	$("#abouttext").fadeIn("slow");
-	$("#wordtext").hide();
-	$("#soundtext").hide();
+$(document).ready(function() {
+	$("#aboutlink").live("click",function(){
+		$("#abouttext").fadeIn("slow");
+		$("#wordtext").hide();
+		$("#soundtext").hide();
+	});
 });
 
-$("#wordlink").live("click",function(){
-	$("#abouttext").hide();
-	$("#wordtext").fadeIn("slow");
-	$("#soundtext").hide();
+$(document).ready(function() {
+	$("#wordlink").live("click",function(){
+		$("#abouttext").hide();
+		$("#wordtext").fadeIn("slow");
+		$("#soundtext").hide();
+	});
 });
 
-$("#soundlink").live("click",function(){
-	$("#abouttext").hide();
-	$("#wordtext").hide();
-	$("#soundtext").fadeIn("slow");
+$(document).ready(function() {
+	$("#soundlink").live("click",function(){
+		$("#abouttext").hide();
+		$("#wordtext").hide();
+		$("#soundtext").fadeIn("slow");
+	});
 });
 
 //hover 
