@@ -117,22 +117,23 @@ h3{
   left: 717px;
 }
 
-  a:link{
-    color:#000000
-  }
-  a:visited{
-    color:#000000;
-  }
-  a:hover{
-    color:#ff5454;
-  }
-  a:active{
+
+
+  a {
     color:#ff5454;
   }
 
-  a.customlink{
-    color:#ff5454;
+  a:hover{
+    color:#ff0707;
   }
+
+ul a{
+  color: black;
+}
+
+ul a:hover {
+  color: #ff5454;
+}
 
 .active{
   background-color:#e5e5e5;
