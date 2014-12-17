@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 //fades
 $(document).ready(function() {
-	$("#headlinelink").live("click",function(){
+	$("#headlinelink").on("click",function(){
 		$("#abouttext").fadeOut("slow");
 		$("#wordtext").fadeOut("slow");
 		$("#soundtext").fadeOut("slow");
@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$("#aboutlink").live("click",function(){
+	$("#aboutlink").on("click",function(){
 		$("#abouttext").fadeIn("slow");
 		$("#wordtext").hide();
 		$("#soundtext").hide();
@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$("#wordlink").live("click",function(){
+	$("#wordlink").on("click",function(){
 		$("#abouttext").hide();
 		$("#wordtext").fadeIn("slow");
 		$("#soundtext").hide();
@@ -30,7 +30,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$("#soundlink").live("click",function(){
+	$("#soundlink").on("click",function(){
 		$("#abouttext").hide();
 		$("#wordtext").hide();
 		$("#soundtext").fadeIn("slow");
