@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#abouttext").hide();
+	$("#numbertext").hide();
 	$("#wordtext").hide();
 	$("#soundtext").hide();
 
@@ -7,34 +7,34 @@ $(document).ready(function() {
 //fades
 
 	$("#headline").on("click",function(){
-		$("#abouttext").fadeOut("slow");
+		$("#numbertext").fadeOut("slow");
 		$("#wordtext").fadeOut("slow");
 		$("#soundtext").fadeOut("slow");
 	});
 
 	$("#aboutlink").on("click",function(){
-		$("#abouttext").fadeIn("slow");
+		$("#numbertext").fadeIn("slow");
 		$("#wordtext").hide();
 		$("#soundtext").hide();
 	});
 
 	$("#wordlink").on("click",function(){
-		$("#abouttext").hide();
+		$("#numbertext").hide();
 		$("#wordtext").fadeIn("slow");
 		$("#soundtext").hide();
 	});
 
 	$("#soundlink").on("click",function(){
-		$("#abouttext").hide();
+		$("#numbertext").hide();
 		$("#wordtext").hide();
 		$("#soundtext").fadeIn("slow");
 	});
 
 //hover 
-	$("#aboutbox").hover(function(){
-	  $("#aboutbox").css("background-color","#e5e5e5");
+	$("#numberbox").hover(function(){
+	  $("#numberbox").css("background-color","#e5e5e5");
 	   },function(){
-	  $("#aboutbox").css("background-color","#FFFFFFF");
+	  $("#numberbox").css("background-color","#FFFFFFF");
 	});
 
 	$("#wordbox").hover(function(){

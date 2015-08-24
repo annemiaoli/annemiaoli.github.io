@@ -245,13 +245,13 @@ section titles
   top:28px;
   left:161px;
 }
-#about{
+#number{
   position:fixed;
   font-family:serif;
   font-size: 25px;
   text-align: center;
   top: 250px;
-  left: 235px;
+  left: 222px;
 }
 
 #word{
@@ -285,7 +285,7 @@ section titles
 text
 ======*/
 
-#abouttext{
+#numbertext{
   position:fixed;
   font-family: sans-serif;
   width: 400px;
