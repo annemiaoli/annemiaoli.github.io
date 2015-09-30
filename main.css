@@ -66,8 +66,8 @@ table {
 }
 
 .body{
-  font-family:"Josefin", sans-serif;
-  font-weight:300;
+  font-family:"Roboto", sans-serif;
+  font-weight:400;
   font-size:15.5px;
   line-height: 20px;
   width: 500px;
@@ -91,21 +91,21 @@ classes
 
 h1{
   position:fixed;
-  font-family: "Josefin Slab", serif;
-  font-size: 50px;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
   color: #ff5454;
-  font-weight:600;
+  font-weight:400;
 }
 
 h2{
-  font-family:"Josefin Slab", serif;
-  font-size:25px;
+  font-family:"Roboto Slab", serif;
+  font-size:20px;
   color:#00C8FF;
 }
 
 h3{
-  font-family: "Josefin Slab", serif;
-  font-size:25px;
+  font-family: "Roboto Slab", serif;
+  font-size:20px;
   color:#00C8FF;
 }
 
@@ -141,7 +141,7 @@ ul a:hover {
 
 em{
   color:#ff5454;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 15.5px;
 }
 
@@ -149,7 +149,7 @@ footer{
   position:fixed;
   top:505px;
   left:163px;
-  font-family:"Josefin", sans-serif;
+  font-family:"Roboto", sans-serif;
   font-size:14px;
   font-weight: 100;
 }
@@ -307,6 +307,12 @@ text
   width: 400px;
   top:190px;
   left: 700px;
+}
+
+.dacs{
+  /*--font-style:italic;==*/
+  font-size:13px;
+  font-weight:300;
 }
 
 
