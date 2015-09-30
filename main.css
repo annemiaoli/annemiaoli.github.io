@@ -204,12 +204,13 @@ Boxes
   top:192px;
 }
 
-#aboutbox{
+#numberbox{
   position:fixed;
   height:136px;
   width:200px;
   left:167px;
   top:198px;
+  background-color: #e5e5e5;
 }
 
 #wordbox{
@@ -218,6 +219,7 @@ Boxes
   width:200px;
   left:372px;
   top:198px;
+  background-color: #e5e5e5;
 }
 
 #soundbox{
@@ -226,6 +228,7 @@ Boxes
   width:200px;
   left:167px;
   top:337px;
+  background-color: #e5e5e5;
 }
 
 #resumebox{
@@ -234,6 +237,7 @@ Boxes
   width: 200px;
   left:372px;
   top:337px;
+  background-color: #e5e5e5;
 }
 
 /*=====
@@ -251,7 +255,7 @@ section titles
   font-size: 25px;
   text-align: center;
   top: 250px;
-  left: 222px;
+  left: 233px;
 }
 
 #word{
@@ -269,7 +273,7 @@ section titles
   font-size: 25px;
   text-align: center;
   top: 390px;
-  left: 235px;
+  left: 240px;
 }
 
 #resume{

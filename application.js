@@ -32,26 +32,26 @@ $(document).ready(function() {
 
 //hover 
 	$("#numberbox").hover(function(){
-	  $("#numberbox").css("background-color","#e5e5e5");
+	  $("#numberbox").css("background-color","#cecece");
 	   },function(){
 	  $("#numberbox").css("background-color","#FFFFFFF");
 	});
 
 	$("#wordbox").hover(function(){
-	  $("#wordbox").css("background-color","#e5e5e5");
+	  $("#wordbox").css("background-color","#cecece");
 	   },function(){
 	  $("#wordbox").css("background-color","#FFFFFFF");
 	});
 
 
 	$("#soundbox").hover(function(){
-	  $("#soundbox").css("background-color","#e5e5e5");
+	  $("#soundbox").css("background-color","#cecece");
 	   },function(){
 	  $("#soundbox").css("background-color","#FFFFFFF");
 	});
 
 	$("#resumebox").hover(function(){
-	  $("#resumebox").css("background-color","#e5e5e5");
+	  $("#resumebox").css("background-color","#cecece");
 	   },function(){
 	  $("#resumebox").css("background-color","#FFFFFFF");
 	});
