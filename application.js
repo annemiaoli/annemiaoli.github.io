@@ -12,7 +12,7 @@ $(document).ready(function() {
 		$("#soundtext").fadeOut("slow");
 	});
 
-	$("#aboutlink").on("click",function(){
+	$("#numberlink").on("click",function(){
 		$("#numbertext").fadeIn("slow");
 		$("#wordtext").hide();
 		$("#soundtext").hide();
