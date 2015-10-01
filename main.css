@@ -136,7 +136,7 @@ ul a:hover {
 }
 
 .active{
-  background-color: #cecece;
+  background-color: #cecece !important;
 }
 
 em{
