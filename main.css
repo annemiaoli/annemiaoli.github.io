@@ -124,7 +124,8 @@ h3{
   }
 
   a:hover{
-    color:#ff0707;
+    color:#ff5454;
+    font-weight:400;
   }
 
 ul a{
@@ -141,8 +142,8 @@ ul a:hover {
 
 em{
   color:#ff5454;
-  font-weight: 400;
-  font-size: 15.5px;
+  /*font-weight: 400;
+  font-size: 15.5px;*/
 }
 
 footer{
