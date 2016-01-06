@@ -191,6 +191,22 @@ IDs
   padding-left:15%;
 }
 
+#write:hover{
+  cursor:pointer;
+}
+
+#jumbotron:hover{
+  cursor:pointer;
+}
+
+#listen:hover{
+  cursor:pointer;
+}
+
+#count:hover{
+  cursor:pointer;
+}
+
 /*====/
 Links
 ====*/
@@ -206,10 +222,6 @@ Links
 
 ul a{
   color: black;
-}
-
-ul a:hover {
-  color: #ff5454;
 }
 
 .active{
