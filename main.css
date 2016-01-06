@@ -192,21 +192,21 @@ IDs
   padding-left:15%;
 }
 
-#write:hover{
-  cursor:pointer;
-  
-}
-
 #jumbotron:hover{
   cursor:pointer;
 }
 
-#listen:hover{
+.verbs:hover{
   cursor:pointer;
 }
 
-#count:hover{
-  cursor:pointer;
+.verbs{
+  display:inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.verbs.active{
+  border-color: #ff5454;
 }
 
 /*====/
@@ -224,10 +224,6 @@ Links
 
 ul a{
   color: black;
-}
-
-.active{
-  background-color: #cecece !important;
 }
 
 em{

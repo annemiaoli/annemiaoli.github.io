@@ -9,6 +9,7 @@ $(document).ready(function() {
 		$("#write-list").slideUp("fast");
 		$("#listen-list").slideUp("fast");
 		$("#count-list").slideUp("fast");
+		$(".verbs").removeClass("active");
 	});
 
 	$("#write").on("click",function(){
@@ -29,10 +30,9 @@ $(document).ready(function() {
 		$("#count-list").slideToggle("fast");
 	});
 
-//click
-
-	$(".box").click(function() {
-	   $(".box").removeClass("active");  // remove active class from all
-	   $(this).addClass("active");         // add active class to clicked
+	$(".verbs").on("click",function(){
+	  $(this).toggleClass("active");
+	  $(this).siblings().removeClass("active");
 	});
 });
+

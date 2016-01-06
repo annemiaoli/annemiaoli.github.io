@@ -53,7 +53,7 @@ $(document).ready(function() {
 	$("#resumebox").hover(function(){
 	  $("#resumebox").css("background-color","#cecece");
 	   },function(){
-	  $("#resumebox").css("background-color","#FFFFFFF");
+	  $("#resumebox").css("background-color","#F0F8FF");
 	});
 
 //click
