@@ -31,8 +31,8 @@ $(document).ready(function() {
 	});
 
 	$(".verbs").on("click",function(){
-	  $(this).toggleClass("active");
-	  $(this).siblings().removeClass("active");
+	  $(this).toggleClass("active");            //adds active class to specific verb
+	  $(this).siblings().removeClass("active"); //looks for this' sibblings and removes active classes from them 
 	});
 });
 

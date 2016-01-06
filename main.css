@@ -201,7 +201,7 @@ IDs
 }
 
 .verbs{
-  display:inline-block;
+  display:inline-block; /*By default spans are inline, which absorbs the properties of p. Inline-block ignores p.*/
   border-bottom: 2px solid transparent;
 }
 
