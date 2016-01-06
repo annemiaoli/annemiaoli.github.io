@@ -1,59 +1,32 @@
 $(document).ready(function() {
-	$("#numbertext").hide();
-	$("#wordtext").hide();
-	$("#soundtext").hide();
-
-
+	$("#write-list").hide();
+	$("#listen-list").hide();
+	$("#count-list").hide();
+	
 //fades
 
-	$("#headline").on("click",function(){
-		$("#numbertext").fadeOut("slow");
-		$("#wordtext").fadeOut("slow");
-		$("#soundtext").fadeOut("slow");
+	$("#jumbotron").on("click",function(){
+		$("#write-list").slideUp("fast");
+		$("#listen-list").slideUp("fast");
+		$("#count-list").slideUp("fast");
 	});
 
-	$("#numberlink").on("click",function(){
-		$("#numbertext").fadeIn("slow");
-		$("#wordtext").hide();
-		$("#soundtext").hide();
+	$("#write").on("click",function(){
+		$("#write-list").slideToggle("fast");
+		$("#listen-list").hide();
+		$("#count-list").hide();
 	});
 
-	$("#wordlink").on("click",function(){
-		$("#numbertext").hide();
-		$("#wordtext").fadeIn("slow");
-		$("#soundtext").hide();
+	$("#listen").on("click",function(){
+		$("#write-list").hide();
+		$("#listen-list").slideToggle("fast");
+		$("#count-list").hide();
 	});
 
-	$("#soundlink").on("click",function(){
-		$("#numbertext").hide();
-		$("#wordtext").hide();
-		$("#soundtext").fadeIn("slow");
-	});
-
-//hover 
-	$("#numberbox").hover(function(){
-	  $("#numberbox").css("background-color","#cecece");
-	   },function(){
-	  $("#numberbox").css("background-color","#FFFFFFF");
-	});
-
-	$("#wordbox").hover(function(){
-	  $("#wordbox").css("background-color","#cecece");
-	   },function(){
-	  $("#wordbox").css("background-color","#FFFFFFF");
-	});
-
-
-	$("#soundbox").hover(function(){
-	  $("#soundbox").css("background-color","#cecece");
-	   },function(){
-	  $("#soundbox").css("background-color","#FFFFFFF");
-	});
-
-	$("#resumebox").hover(function(){
-	  $("#resumebox").css("background-color","#cecece");
-	   },function(){
-	  $("#resumebox").css("background-color","#FFFFFFF");
+	$("#count").on("click",function(){
+		$("#write-list").hide();
+		$("#listen-list").hide();
+		$("#count-list").slideToggle("fast");
 	});
 
 //click

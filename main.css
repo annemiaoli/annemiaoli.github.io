@@ -47,15 +47,127 @@ table {
   border-spacing: 0;
 }
 
-{
-  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfdMh52eEIYVRFrnAG2g-jfVn-r61Sz2K1u7iZ470slITHsTPLxUWgn2c");
+body {
+    background-color:#F0F8FF;
 }
 
-/*
-  ======
-  Grid
-  ======
-*/
+/*=====
+Media Queries (icons)
+=======*/
+
+#icon {
+    background-position:0 0;
+    height:20px;
+    width:20px;}
+    
+    /*desktop*/
+    @media only screen and (min-width: 960px)  and (max-width: 1140px){
+        body { min-width:960px; }
+    
+    #icon {
+            background-position:-20px 0;
+            height:20px;
+            width:20px;}
+          }
+
+/*tablets*/
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        body { min-width:768px; }
+
+    #icon {
+            background-position:-32px 0px;
+            height:15px;
+            width:15px;
+          }
+}
+
+/*mobile*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    body { min-width:480px; }
+
+    #icon {
+            background-position:-50px 0px;
+            height:12px;
+            width:12px;
+          }
+}
+
+/*====/
+Classes
+====*/
+
+h1{
+  font-family:"Hind";
+  font-weight:800;
+  font-size: 40px;
+  color: #ff5454;
+}
+
+h2{
+  font-family:"Hind";
+  font-size:20px;
+  color:#00C8FF;
+}
+
+h3{
+  font-family: "Hind";
+  font-size:20px;
+  color:#00C8FF;
+}
+
+footer{
+  font-family:"Hind";
+  font-size:11px;
+  padding-left:15%;
+  padding-top:5%;
+}
+
+.flex-container{
+  display:flex;
+  align-items:flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left:15%;
+  margin-bottom:;
+  width:100vw;
+  max-width:202px;
+  list-style: none;
+}
+
+.text{
+  font-family:"Hind";
+  font-weight:400;
+  font-size:15.5px;
+  line-height: 20px;
+}
+
+.list{
+  font-family: "Hind";
+  width: 60%;
+  max-width:500px;
+  padding-left:17%;
+  padding-top:2%;
+}
+
+.dacs{
+  font-family: "Hind";
+  font-size:13px;
+  font-weight:300;
+}
+
+/*====/
+IDs
+====*/
+
+#website-wrapper{
+  padding-top:11%;
+}
+
+#jumbotron{ 
+  padding-left:15%;
+}
 
 #container {
   margin-left: 10%;
@@ -65,59 +177,23 @@ table {
   height: 500px;
 }
 
-.body{
-  font-family:"Roboto", sans-serif;
-  font-weight:400;
-  font-size:15.5px;
-  line-height: 20px;
-  width: 500px;
+#bio{
+  width:60%;
+  max-width:500px;
+  padding-left:15%;
+  padding-top:2%;
 }
 
-#intro1{
-  position:fixed;
-  left:167px;
-  top: 130px;
-}
-
-#intro2{
-  position:fixed;
-  left:167px;
-  top: 150px;
+#bio-2{
+  width:60%;
+  max-width:500px;
+  padding-top:2%;
+  padding-left:15%;
 }
 
 /*====/
-classes
+Links
 ====*/
-
-h1{
-  position:fixed;
-  font-family: "Roboto Slab", serif;
-  font-size: 40px;
-  color: #ff5454;
-  font-weight:400;
-}
-
-h2{
-  font-family:"Roboto Slab", serif;
-  font-size:20px;
-  color:#00C8FF;
-}
-
-h3{
-  font-family: "Roboto Slab", serif;
-  font-size:20px;
-  color:#00C8FF;
-}
-
-#list{
-  position:fixed;
-  font-family: sans-serif;
-  width: 383px;
-  top:275px;
-  left: 717px;
-}
-
-
 
   a {
     color:#ff5454;
@@ -125,7 +201,7 @@ h3{
 
   a:hover{
     color:#ff5454;
-    font-weight:400;
+    font-weight:500;
   }
 
 ul a{
@@ -142,17 +218,6 @@ ul a:hover {
 
 em{
   color:#ff5454;
-  /*font-weight: 400;
-  font-size: 15.5px;*/
-}
-
-footer{
-  position:fixed;
-  top:505px;
-  left:167px;
-  font-family:"Roboto", sans-serif;
-  font-size:14px;
-  font-weight: 300;
 }
 
 /*=====/
@@ -160,166 +225,29 @@ Social Media
 ======*/
 
 #mail{
-  position:fixed;
-  top: 85px;
-  left:167px;
-}
-
-#linkedin{
-  position:fixed;
-  left: 214px;
-  top: 81px;
+  padding-top: 4%;
+  margin-left:5%;
 }
 
 #twitter{
-  position:fixed;
-  left:256px;
-  top:80px;
+   padding-top: 4%;
+  margin-left:5%;
 }
 
 #soundcloud{
   position: fixed;
-  left: 306px;
-  top:79px;
+  top:125px;
+  left: 255px;
+}
+
+#linkedin{
+  position:fixed;
+  top: 125px;
+  left: 302px;
 }
 
 #GitHub{
   position: fixed;
-  left:361px;
-  top:79px;
+  top:125px;
+  left:349px;
 }
-
-#aboutme{
-  position:fixed;
-  left:400px;
-  top:87px;
-}
-
-/*====/
-Boxes
-=====*/
-
-#numberbox{
-  position:fixed;
-  height:136px;
-  width:200px;
-  left:167px;
-  top:198px;
-  background-color: #e5e5e5;
-}
-
-#wordbox{
-  position:fixed;
-  height:136px;
-  width:200px;
-  left:372px;
-  top:198px;
-  background-color: #e5e5e5;
-}
-
-#soundbox{
-  position:fixed;
-  height: 136px;
-  width:200px;
-  left:167px;
-  top:337px;
-  background-color: #e5e5e5;
-}
-
-#resumebox{
-  position:fixed;
-  height: 136px;
-  width: 200px;
-  left:372px;
-  top:337px;
-  background-color: #e5e5e5;
-}
-
-/*=====
-section titles
-======*/
-
-#headline{
-  position:fixed;
-  top:28px;
-  left:167px;
-}
-#number{
-  position:fixed;
-  font-family:serif;
-  font-size: 25px;
-  text-align: center;
-  top: 255px;
-  left: 233px;
-}
-
-#word{
-  position:fixed;
-  font-family:serif;
-  font-size: 25px;
-  text-align: center;
-  top: 255px;
-  left: 447px;
-}
-
-#sound{
-  position:fixed;
-  font-family:serif;
-  font-size: 25px;
-  text-align: center;
-  top: 390px;
-  left: 240px;
-}
-
-#resume{
-  position:fixed;
-  font-family:serif;
-  font-size: 25px;
-  text-align: center;
-  top: 390px;
-  left: 440px;
-}
-
-/*=====
-text
-======*/
-
-#numbertext{
-  position:fixed;
-  font-family: sans-serif;
-  width: 400px;
-  top:190px;
-  left: 700px;
-}
-
-#wordtext{
-  position:fixed;
-  font-family: sans-serif;
-  width: 400px;
-  top:190px;
-  left: 700px;
-}
-
-#soundtext{
-  position:fixed;
-  font-family: sans-serif;
-  width: 400px;
-  top:190px;
-  left: 700px;
-}
-
-.dacs{
-  /*--font-style:italic;==*/
-  font-size:13px;
-  font-weight:300;
-}
-
-
-/*=====
-Colors:
-
-Original orange: #EC5A24;
-anne's red: #ff4000;
-Original blue: #00AEEF;
-Summer's blue: #00adef;
-======*/

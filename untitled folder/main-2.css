@@ -1,0 +1,324 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: •;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+{
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfdMh52eEIYVRFrnAG2g-jfVn-r61Sz2K1u7iZ470slITHsTPLxUWgn2c");
+}
+
+/*
+  ======
+  Grid
+  ======
+*/
+
+#container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 0;
+  width: 1050px;
+  height: 500px;
+}
+
+.body{
+  font-family:"Roboto", sans-serif;
+  font-weight:400;
+  font-size:15.5px;
+  line-height: 20px;
+  width: 500px;
+}
+
+#intro1{
+  position:fixed;
+  left:167px;
+  top: 130px;
+}
+
+#intro2{
+  position:fixed;
+  left:167px;
+  top: 150px;
+}
+
+/*====/
+classes
+====*/
+
+h1{
+  position:fixed;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  color: #ff5454;
+  font-weight:400;
+}
+
+h2{
+  font-family:"Roboto Slab", serif;
+  font-size:20px;
+  color:#00C8FF;
+}
+
+h3{
+  font-family: "Roboto Slab", serif;
+  font-size:20px;
+  color:#00C8FF;
+}
+
+#list{
+  position:fixed;
+  font-family: sans-serif;
+  width: 383px;
+  top:275px;
+  left: 717px;
+}
+
+
+
+  a {
+    color:#ff5454;
+  }
+
+  a:hover{
+    color:#ff5454;
+    font-weight:400;
+  }
+
+ul a{
+  color: black;
+}
+
+ul a:hover {
+  color: #ff5454;
+}
+
+.active{
+  background-color: #cecece !important;
+}
+
+em{
+  color:#ff5454;
+  /*font-weight: 400;
+  font-size: 15.5px;*/
+}
+
+footer{
+  position:fixed;
+  top:505px;
+  left:167px;
+  font-family:"Roboto", sans-serif;
+  font-size:14px;
+  font-weight: 300;
+}
+
+/*=====/
+Social Media
+======*/
+
+#mail{
+  position:fixed;
+  top: 85px;
+  left:167px;
+}
+
+#linkedin{
+  position:fixed;
+  left: 214px;
+  top: 81px;
+}
+
+#twitter{
+  position:fixed;
+  left:256px;
+  top:80px;
+}
+
+#soundcloud{
+  position: fixed;
+  left: 306px;
+  top:79px;
+}
+
+#GitHub{
+  position: fixed;
+  left:361px;
+  top:79px;
+}
+
+#aboutme{
+  position:fixed;
+  left:400px;
+  top:87px;
+}
+
+/*====/
+Boxes
+=====*/
+
+#numberbox{
+  position:fixed;
+  height:136px;
+  width:200px;
+  left:167px;
+  top:198px;
+  background-color: #e5e5e5;
+}
+
+#wordbox{
+  position:fixed;
+  height:136px;
+  width:200px;
+  left:372px;
+  top:198px;
+  background-color: #e5e5e5;
+}
+
+#soundbox{
+  position:fixed;
+  height: 136px;
+  width:200px;
+  left:167px;
+  top:337px;
+  background-color: #e5e5e5;
+}
+
+#resumebox{
+  position:fixed;
+  height: 136px;
+  width: 200px;
+  left:372px;
+  top:337px;
+  background-color: #e5e5e5;
+}
+
+/*=====
+section titles
+======*/
+
+#headline{
+  position:fixed;
+  top:28px;
+  left:167px;
+}
+#number{
+  position:fixed;
+  font-family:serif;
+  font-size: 25px;
+  text-align: center;
+  top: 255px;
+  left: 233px;
+}
+
+#word{
+  position:fixed;
+  font-family:serif;
+  font-size: 25px;
+  text-align: center;
+  top: 255px;
+  left: 447px;
+}
+
+#sound{
+  position:fixed;
+  font-family:serif;
+  font-size: 25px;
+  text-align: center;
+  top: 390px;
+  left: 240px;
+}
+
+#resume{
+  position:fixed;
+  font-family:serif;
+  font-size: 25px;
+  text-align: center;
+  top: 390px;
+  left: 440px;
+}
+
+/*=====
+text
+======*/
+
+#numbertext{
+  position:fixed;
+  font-family: sans-serif;
+  width: 400px;
+  top:190px;
+  left: 700px;
+}
+
+#wordtext{
+  position:fixed;
+  font-family: sans-serif;
+  width: 400px;
+  top:190px;
+  left: 700px;
+}
+
+#soundtext{
+  position:fixed;
+  font-family: sans-serif;
+  width: 400px;
+  top:190px;
+  left: 700px;
+}
+
+.dacs{
+  /*--font-style:italic;==*/
+  font-size:13px;
+  font-weight:300;
+}
+
+
+/*=====
+Colors:
+
+Original orange: #EC5A24;
+anne's red: #ff4000;
+Original blue: #00AEEF;
+Summer's blue: #00adef;
