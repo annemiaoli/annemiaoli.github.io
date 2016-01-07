@@ -198,6 +198,8 @@ IDs
 
 .verbs:hover{
   cursor:pointer;
+  display:inline-block; /*By default spans are inline, which absorbs the properties of p. Inline-block ignores p.*/
+  border-color: #ff5454;
 }
 
 .verbs{
