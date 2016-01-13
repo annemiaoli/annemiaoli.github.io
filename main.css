@@ -181,6 +181,8 @@ IDs
 
 #jumbotron{ 
   padding-left:15%;
+  width:60%;
+  max-width:203px;
 }
 
 #container {
