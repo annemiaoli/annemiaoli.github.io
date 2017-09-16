@@ -88,7 +88,7 @@ Media Queries (icons)
 
     #icon {
             background-position:-50px 0px;
-            height:12px;
+            /*height:12px;*/
           }
 }
 
