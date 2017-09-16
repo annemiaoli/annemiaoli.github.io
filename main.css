@@ -47,9 +47,9 @@ table {
   border-spacing: 0;
 }
 
-body {
+/*body {
     background-color:#F0F8FF;
-}
+}*/
 
 /*=====
 Media Queries (icons)
@@ -101,7 +101,7 @@ h1{
   font-family:"Hind";
   font-weight:800;
   font-size: 40px;
-  color: #ff5454;
+  color: #32829E;
 }
 
 h2{
@@ -215,7 +215,7 @@ IDs
 .verbs:hover{
   cursor:pointer;
   display:inline-block; /*By default spans are inline, which absorbs the properties of p. Inline-block ignores p.*/
-  border-color: #ff5454;
+  border-color: #32829E;
 }
 
 .verbs{
@@ -224,7 +224,7 @@ IDs
 }
 
 .verbs.active{
-  border-color: #ff5454;
+  border-color: #32829E;
 }
 
 /*====/
@@ -232,12 +232,12 @@ Links
 ====*/
 
   a {
-    color:#ff5454;
+    color:#332829E;
   }
 
   a:hover{
     font-weight:500;
-    color:#ff5454;
+    color:#32829E;
   }
 
 ul a{
@@ -245,7 +245,7 @@ ul a{
 }
 
 em{
-  color:#ff5454;
+  color:#32829E;
 }
 
 /*=====/
