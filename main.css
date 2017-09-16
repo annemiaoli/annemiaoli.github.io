@@ -88,9 +88,15 @@ Media Queries (icons)
 
     #icon {
             background-position:-50px 0px;
-            height:12px;
             width:25%;
           }
+    h1{
+        font-family:"Hind";
+        font-weight:800;
+        font-size: 40px;
+        color: #008080;
+        width:25%;
+      }
 }
 
 /*====/
