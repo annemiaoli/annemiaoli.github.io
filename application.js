@@ -1,32 +1,32 @@
 $(document).ready(function() {
-	$("#write-list").hide();
-	$("#listen-list").hide();
+	$("#produce-list").hide();
+	$("#report-list").hide();
 	$("#count-list").hide();
 	
 //fades
 
 	$("#jumbotron").on("click",function(){
-		$("#write-list").slideUp("fast");
-		$("#listen-list").slideUp("fast");
+		$("#produce-list").slideUp("fast");
+		$("#report-list").slideUp("fast");
 		$("#count-list").slideUp("fast");
 		$(".verbs").removeClass("active");
 	});
 
-	$("#write").on("click",function(){
-		$("#write-list").slideToggle("fast");
-		$("#listen-list").hide();
+	$("#produce").on("click",function(){
+		$("#produce-list").slideToggle("fast");
+		$("#report-list").hide();
 		$("#count-list").hide();
 	});
 
-	$("#listen").on("click",function(){
-		$("#write-list").hide();
-		$("#listen-list").slideToggle("fast");
+	$("#report").on("click",function(){
+		$("#produce-list").hide();
+		$("#report-list").slideToggle("fast");
 		$("#count-list").hide();
 	});
 
 	$("#count").on("click",function(){
-		$("#write-list").hide();
-		$("#listen-list").hide();
+		$("#produce-list").hide();
+		$("#report-list").hide();
 		$("#count-list").slideToggle("fast");
 	});
 
