@@ -101,19 +101,19 @@ h1{
   font-family:"Hind";
   font-weight:800;
   font-size: 40px;
-  color: #008080;
+  color: #10A7F1;
 }
 
 h2{
   font-family:"Hind";
   font-size:20px;
-  color:#04C4EF;
+  color:#10A7F1;
 }
 
 h3{
   font-family: "Hind";
   font-size:20px;
-  color:#04C4EF;
+  color:#10A7F1;
 }
 
 hr{
@@ -215,7 +215,7 @@ IDs
 .verbs:hover{
   cursor:pointer;
   display:inline-block; /*By default spans are inline, which absorbs the properties of p. Inline-block ignores p.*/
-  border-color: #008080;
+  border-color: #10A7F1;
 }
 
 .verbs{
@@ -224,7 +224,7 @@ IDs
 }
 
 .verbs.active{
-  border-color: #008080;
+  border-color: #10A7F1;
 }
 
 /*====/
@@ -232,12 +232,12 @@ Links
 ====*/
 
   a {
-    color:#008080;
+    color:#10A7F1;
   }
 
   a:hover{
     font-weight:500;
-    color:#008080;
+    color:#10A7F1;
   }
 
 ul a{
@@ -245,7 +245,7 @@ ul a{
 }
 
 em{
-  color:#008080;
+  color:#10A7F1;
 }
 
 /*=====/
